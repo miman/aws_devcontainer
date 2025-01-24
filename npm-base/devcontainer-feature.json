@@ -18,12 +18,5 @@
 				"hediet.vscode-drawio"
 			]
 		}
-	},
-	"options": {
-		"mountAws": {
-			"type": "boolean",
-			"description": "Mount the .aws file from the host machine",
-			"default": false
-		}
 	}
 }
