@@ -1,5 +1,5 @@
 {
-	"id": "npm-aws-devcontainer-setup",
+	"id": "npm-aws",
 	"version": "1.0.0",
 	"name": "AWS NodeJs Devcontainer Setup",
 	"description": "Provides a AWS NodeJs base setup with git, npmrc mounts, and VS Code extensions.",

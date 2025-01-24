@@ -1,5 +1,5 @@
 {
-	"id": "base-devcontainer-feature",
+	"id": "npm-base",
 	"version": "1.0.0",
 	"name": "Base Devcontainer feature",
 	"description": "Provides a base setup with git, npmrc mounts, and VS Code extensions.",
