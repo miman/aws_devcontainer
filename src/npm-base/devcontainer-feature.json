@@ -1,7 +1,7 @@
 {
 	"id": "npm-base",
 	"version": "1.0.0",
-	"name": "Base Devcontainer feature",
+	"name": "Base Devcontainer with GIT feature",
 	"description": "Provides a base setup with git, npmrc mounts, and VS Code extensions.",
 	"customizations": {
 		"vscode": {
@@ -15,5 +15,14 @@
 				"hediet.vscode-drawio"
 			]
 		}
-	}
+	},
+	"options": {
+		"gitversion": {
+			"type": "string",
+			"proposals": ["latest", "system", "os-provided"],
+			"default": "os-provided",
+			"description": "Select or enter a Git version."
+		}
+	},
+	"installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }

@@ -11,3 +11,7 @@ mount --bind "${localEnv:HOME}/.aws" /root/.aws
 export NPM_CONFIG_USERCONFIG="/.npmrc"
 export AWS_CONFIG_FILE="/.aws/config"
 export AWS_SHARED_CREDENTIALS_FILE="/.aws/credentials"
+
+source ./install_aws_cli.sh
+
+source ./install_git.sh

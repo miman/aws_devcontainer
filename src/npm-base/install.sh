@@ -8,3 +8,5 @@ mount --bind "${localEnv:HOME}/.npmrc" /root/.npmrc
 
 # Set the environment variables
 export NPM_CONFIG_USERCONFIG="/.npmrc"
+
+source ./install_git.sh
