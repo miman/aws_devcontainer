@@ -3,9 +3,6 @@
 	"version": "1.0.0",
 	"name": "Base Devcontainer feature",
 	"description": "Provides a base setup with git, npmrc mounts, and VS Code extensions.",
-	"features": {
-		"ghcr.io/devcontainers/features/git:1": {}
-	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
