@@ -1,0 +1,31 @@
+{
+	"id": "npm-aws-devcontainer-setup",
+	"version": "1.0.0",
+	"name": "AWS NodeJs Devcontainer Setup",
+	"description": "Provides a AWS NodeJs base setup with git, npmrc mounts, and VS Code extensions.",
+	"features": {
+		"ghcr.io/devcontainers/features/aws-cli:1": {},
+		"ghcr.io/devcontainers/features/git:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"aaron-bond.better-comments",
+				"johnpapa.vscode-peacock",
+				"oderwat.indent-rainbow",
+				"jebbs.plantuml",
+				"jock.svg",
+				"yzhang.markdown-all-in-one",
+				"hediet.vscode-drawio",
+				"christian-kohler.npm-intellisense"
+			]
+		}
+	},
+	"options": {
+		"mountAws": {
+			"type": "boolean",
+			"description": "Mount the .aws file from the host machine",
+			"default": true
+		}
+	}
+}
