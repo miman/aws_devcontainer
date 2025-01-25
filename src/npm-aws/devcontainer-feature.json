@@ -1,6 +1,6 @@
 {
 	"id": "npm-aws",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"name": "AWS CLI & Git Devcontainer Setup",
 	"description": "Provides a base setup with git, npmrc mounts, and VS Code extensions.",
 	"customizations": {
